@@ -1,0 +1,31 @@
+{
+  "name": "vibe-film",
+  "version": "1.0.0",
+  "description": "Vibe 知识视频 · Remotion 模板工程",
+  "main": "index.js",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts Dazi45 out/dazi45.mp4 --crf=16 --pixel-format=yuv420p --color-space=bt709",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/animation-utils": "4.0.536",
+    "@remotion/bundler": "^4.0.536",
+    "@remotion/cli": "^4.0.536",
+    "@remotion/motion-blur": "4.0.536",
+    "@remotion/renderer": "^4.0.536",
+    "@remotion/shapes": "4.0.536",
+    "@remotion/transitions": "4.0.536",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
