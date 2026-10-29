@@ -42,7 +42,7 @@ assets/templates/           # 11 个 Remotion 模板
 ## 安装
 
 ```bash
-git clone <this-repo> ~/.workbuddy-ai/skills/vibe-knowledge-video
+git clone https://github.com/aikudewo/vibe-knowledge-video.git ~/.workbuddy-ai/skills/vibe-knowledge-video
 ```
 
 或者直接把整个目录拷进 `~/.workbuddy-ai/skills/`。
